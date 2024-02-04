@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Memanggil fungsi checkServerStatus() saat halaman dimuat
-    setInterval(checkServerStatus, 1000);
+    setInterval(checkServerStatus, 100);
 });
 
 function checkServerStatus() {
